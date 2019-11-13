@@ -40,4 +40,6 @@
 
 
 ## Project19 JavaScript Injection
+1. how to create new extension and add new target?
+
 

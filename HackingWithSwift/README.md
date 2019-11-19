@@ -128,4 +128,29 @@
    }
    ```
 
+   ## Project21 Local Notifications
+
+   1. Local Notification
+
+      + request permission
+
+        ```
+        let center = UNUserNotificationCenter.current()
+        
+            center.requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
+                if granted {
+                    print("Yay!")
+                } else {
+                    print("D'oh")
+                }
+            }
+        ```
+
+      + scheduler notification
+        + content
+        + trigger
+        + Request
+
+2. DateComponents
+
    

@@ -1,12 +1,13 @@
 //
-//  AdaptiveScrollView.swift
-//  ScrollView-v5
+//  AdativeScrollView.swift
+//  ch03
 //
 //  Created by yuhua.cheng on 2019/12/6.
 //  Copyright © 2019 yuhua.cheng. All rights reserved.
 //
 
 import UIKit
+
 class AdaptiveScrollView: UIScrollView {
     override init(frame: CGRect) {
         super.init(frame: frame)

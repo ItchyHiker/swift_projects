@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF3E1E3D239D6A7A0053A795 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3E1E3C239D6A7A0053A795 /* AppDelegate.swift */; };
-		BF3E1E3F239D6A7A0053A795 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3E1E3E239D6A7A0053A795 /* SceneDelegate.swift */; };
-		BF3E1E41239D6A7A0053A795 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3E1E40239D6A7A0053A795 /* ViewController.swift */; };
-		BF3E1E44239D6A7A0053A795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3E1E42239D6A7A0053A795 /* Main.storyboard */; };
-		BF3E1E46239D6A7B0053A795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3E1E45239D6A7B0053A795 /* Assets.xcassets */; };
-		BF3E1E49239D6A7B0053A795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3E1E47239D6A7B0053A795 /* LaunchScreen.storyboard */; };
-		BF3E1E51239D6C850053A795 /* LineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3E1E50239D6C850053A795 /* LineCell.swift */; };
+		BF3E1E5F239D6FFF0053A795 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3E1E5E239D6FFF0053A795 /* AppDelegate.swift */; };
+		BF3E1E61239D6FFF0053A795 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3E1E60239D6FFF0053A795 /* SceneDelegate.swift */; };
+		BF3E1E63239D6FFF0053A795 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3E1E62239D6FFF0053A795 /* ViewController.swift */; };
+		BF3E1E66239D6FFF0053A795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3E1E64239D6FFF0053A795 /* Main.storyboard */; };
+		BF3E1E68239D70000053A795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3E1E67239D70000053A795 /* Assets.xcassets */; };
+		BF3E1E6B239D70000053A795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3E1E69239D70000053A795 /* LaunchScreen.storyboard */; };
+		BF3E1E78239D72E70053A795 /* LineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3E1E76239D72E70053A795 /* LineCell.swift */; };
+		BF3E1E79239D72E70053A795 /* LineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3E1E77239D72E70053A795 /* LineCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF3E1E39239D6A7A0053A795 /* SelfSizing-v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SelfSizing-v1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF3E1E3C239D6A7A0053A795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF3E1E3E239D6A7A0053A795 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF3E1E40239D6A7A0053A795 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF3E1E43239D6A7A0053A795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BF3E1E45239D6A7B0053A795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BF3E1E48239D6A7B0053A795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BF3E1E4A239D6A7B0053A795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF3E1E50239D6C850053A795 /* LineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineCell.swift; sourceTree = "<group>"; };
+		BF3E1E5B239D6FFF0053A795 /* SelfSizing-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SelfSizing-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3E1E5E239D6FFF0053A795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF3E1E60239D6FFF0053A795 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF3E1E62239D6FFF0053A795 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF3E1E65239D6FFF0053A795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF3E1E67239D70000053A795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF3E1E6A239D70000053A795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF3E1E6C239D70000053A795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3E1E76239D72E70053A795 /* LineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineCell.swift; sourceTree = "<group>"; };
+		BF3E1E77239D72E70053A795 /* LineCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LineCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BF3E1E36239D6A7A0053A795 /* Frameworks */ = {
+		BF3E1E58239D6FFF0053A795 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +41,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BF3E1E30239D6A7A0053A795 = {
+		BF3E1E52239D6FFF0053A795 = {
 			isa = PBXGroup;
 			children = (
-				BF3E1E3B239D6A7A0053A795 /* SelfSizing-v1 */,
-				BF3E1E3A239D6A7A0053A795 /* Products */,
+				BF3E1E5D239D6FFF0053A795 /* SelfSizing-v2 */,
+				BF3E1E5C239D6FFF0053A795 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BF3E1E3A239D6A7A0053A795 /* Products */ = {
+		BF3E1E5C239D6FFF0053A795 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF3E1E39239D6A7A0053A795 /* SelfSizing-v1.app */,
+				BF3E1E5B239D6FFF0053A795 /* SelfSizing-v2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF3E1E3B239D6A7A0053A795 /* SelfSizing-v1 */ = {
+		BF3E1E5D239D6FFF0053A795 /* SelfSizing-v2 */ = {
 			isa = PBXGroup;
 			children = (
-				BF3E1E3C239D6A7A0053A795 /* AppDelegate.swift */,
-				BF3E1E3E239D6A7A0053A795 /* SceneDelegate.swift */,
-				BF3E1E40239D6A7A0053A795 /* ViewController.swift */,
-				BF3E1E42239D6A7A0053A795 /* Main.storyboard */,
-				BF3E1E50239D6C850053A795 /* LineCell.swift */,
-				BF3E1E45239D6A7B0053A795 /* Assets.xcassets */,
-				BF3E1E47239D6A7B0053A795 /* LaunchScreen.storyboard */,
-				BF3E1E4A239D6A7B0053A795 /* Info.plist */,
+				BF3E1E5E239D6FFF0053A795 /* AppDelegate.swift */,
+				BF3E1E60239D6FFF0053A795 /* SceneDelegate.swift */,
+				BF3E1E62239D6FFF0053A795 /* ViewController.swift */,
+				BF3E1E76239D72E70053A795 /* LineCell.swift */,
+				BF3E1E77239D72E70053A795 /* LineCell.xib */,
+				BF3E1E64239D6FFF0053A795 /* Main.storyboard */,
+				BF3E1E67239D70000053A795 /* Assets.xcassets */,
+				BF3E1E69239D70000053A795 /* LaunchScreen.storyboard */,
+				BF3E1E6C239D70000053A795 /* Info.plist */,
 			);
-			path = "SelfSizing-v1";
+			path = "SelfSizing-v2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF3E1E38239D6A7A0053A795 /* SelfSizing-v1 */ = {
+		BF3E1E5A239D6FFF0053A795 /* SelfSizing-v2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF3E1E4D239D6A7B0053A795 /* Build configuration list for PBXNativeTarget "SelfSizing-v1" */;
+			buildConfigurationList = BF3E1E6F239D70000053A795 /* Build configuration list for PBXNativeTarget "SelfSizing-v2" */;
 			buildPhases = (
-				BF3E1E35239D6A7A0053A795 /* Sources */,
-				BF3E1E36239D6A7A0053A795 /* Frameworks */,
-				BF3E1E37239D6A7A0053A795 /* Resources */,
+				BF3E1E57239D6FFF0053A795 /* Sources */,
+				BF3E1E58239D6FFF0053A795 /* Frameworks */,
+				BF3E1E59239D6FFF0053A795 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "SelfSizing-v1";
-			productName = "SelfSizing-v1";
-			productReference = BF3E1E39239D6A7A0053A795 /* SelfSizing-v1.app */;
+			name = "SelfSizing-v2";
+			productName = "SelfSizing-v2";
+			productReference = BF3E1E5B239D6FFF0053A795 /* SelfSizing-v2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BF3E1E31239D6A7A0053A795 /* Project object */ = {
+		BF3E1E53239D6FFF0053A795 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = yuhua.cheng.ihandysoft;
 				TargetAttributes = {
-					BF3E1E38239D6A7A0053A795 = {
+					BF3E1E5A239D6FFF0053A795 = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
-			buildConfigurationList = BF3E1E34239D6A7A0053A795 /* Build configuration list for PBXProject "SelfSizing-v1" */;
+			buildConfigurationList = BF3E1E56239D6FFF0053A795 /* Build configuration list for PBXProject "SelfSizing-v2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +116,57 @@
 				en,
 				Base,
 			);
-			mainGroup = BF3E1E30239D6A7A0053A795;
-			productRefGroup = BF3E1E3A239D6A7A0053A795 /* Products */;
+			mainGroup = BF3E1E52239D6FFF0053A795;
+			productRefGroup = BF3E1E5C239D6FFF0053A795 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF3E1E38239D6A7A0053A795 /* SelfSizing-v1 */,
+				BF3E1E5A239D6FFF0053A795 /* SelfSizing-v2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BF3E1E37239D6A7A0053A795 /* Resources */ = {
+		BF3E1E59239D6FFF0053A795 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF3E1E49239D6A7B0053A795 /* LaunchScreen.storyboard in Resources */,
-				BF3E1E46239D6A7B0053A795 /* Assets.xcassets in Resources */,
-				BF3E1E44239D6A7A0053A795 /* Main.storyboard in Resources */,
+				BF3E1E6B239D70000053A795 /* LaunchScreen.storyboard in Resources */,
+				BF3E1E79239D72E70053A795 /* LineCell.xib in Resources */,
+				BF3E1E68239D70000053A795 /* Assets.xcassets in Resources */,
+				BF3E1E66239D6FFF0053A795 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BF3E1E35239D6A7A0053A795 /* Sources */ = {
+		BF3E1E57239D6FFF0053A795 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF3E1E41239D6A7A0053A795 /* ViewController.swift in Sources */,
-				BF3E1E51239D6C850053A795 /* LineCell.swift in Sources */,
-				BF3E1E3D239D6A7A0053A795 /* AppDelegate.swift in Sources */,
-				BF3E1E3F239D6A7A0053A795 /* SceneDelegate.swift in Sources */,
+				BF3E1E63239D6FFF0053A795 /* ViewController.swift in Sources */,
+				BF3E1E78239D72E70053A795 /* LineCell.swift in Sources */,
+				BF3E1E5F239D6FFF0053A795 /* AppDelegate.swift in Sources */,
+				BF3E1E61239D6FFF0053A795 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BF3E1E42239D6A7A0053A795 /* Main.storyboard */ = {
+		BF3E1E64239D6FFF0053A795 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BF3E1E43239D6A7A0053A795 /* Base */,
+				BF3E1E65239D6FFF0053A795 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BF3E1E47239D6A7B0053A795 /* LaunchScreen.storyboard */ = {
+		BF3E1E69239D70000053A795 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BF3E1E48239D6A7B0053A795 /* Base */,
+				BF3E1E6A239D70000053A795 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +174,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BF3E1E4B239D6A7B0053A795 /* Debug */ = {
+		BF3E1E6D239D70000053A795 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		BF3E1E4C239D6A7B0053A795 /* Release */ = {
+		BF3E1E6E239D70000053A795 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,34 +288,34 @@
 			};
 			name = Release;
 		};
-		BF3E1E4E239D6A7B0053A795 /* Debug */ = {
+		BF3E1E70239D70000053A795 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "SelfSizing-v1/Info.plist";
+				INFOPLIST_FILE = "SelfSizing-v2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yuhua.cheng.ihandysoft.SelfSizing-v1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuhua.cheng.ihandysoft.SelfSizing-v2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BF3E1E4F239D6A7B0053A795 /* Release */ = {
+		BF3E1E71239D70000053A795 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "SelfSizing-v1/Info.plist";
+				INFOPLIST_FILE = "SelfSizing-v2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yuhua.cheng.ihandysoft.SelfSizing-v1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuhua.cheng.ihandysoft.SelfSizing-v2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF3E1E34239D6A7A0053A795 /* Build configuration list for PBXProject "SelfSizing-v1" */ = {
+		BF3E1E56239D6FFF0053A795 /* Build configuration list for PBXProject "SelfSizing-v2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF3E1E4B239D6A7B0053A795 /* Debug */,
-				BF3E1E4C239D6A7B0053A795 /* Release */,
+				BF3E1E6D239D70000053A795 /* Debug */,
+				BF3E1E6E239D70000053A795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF3E1E4D239D6A7B0053A795 /* Build configuration list for PBXNativeTarget "SelfSizing-v1" */ = {
+		BF3E1E6F239D70000053A795 /* Build configuration list for PBXNativeTarget "SelfSizing-v2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF3E1E4E239D6A7B0053A795 /* Debug */,
-				BF3E1E4F239D6A7B0053A795 /* Release */,
+				BF3E1E70239D70000053A795 /* Debug */,
+				BF3E1E71239D70000053A795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BF3E1E31239D6A7A0053A795 /* Project object */;
+	rootObject = BF3E1E53239D6FFF0053A795 /* Project object */;
 }

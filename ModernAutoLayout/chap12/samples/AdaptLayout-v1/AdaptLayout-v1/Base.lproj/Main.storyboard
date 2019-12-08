@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AdaptLayout_v1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" image="Sun" translatesAutoresizingMaskIntoConstraints="NO" id="ID5-av-Er3">
+                                <rect key="frame" x="0.0" y="85" width="150" height="150"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Solar Panel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUU-tz-TXn">
+                                <rect key="frame" x="158" y="149.5" width="85.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ID5-av-Er3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Bnp-xj-cgx"/>
+                            <constraint firstItem="bUU-tz-TXn" firstAttribute="leading" secondItem="ID5-av-Er3" secondAttribute="trailing" constant="8" symbolic="YES" id="Dox-ek-fIv"/>
+                            <constraint firstItem="bUU-tz-TXn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XPQ-Q6-GJB"/>
+                            <constraint firstItem="ID5-av-Er3" firstAttribute="top" secondItem="bUU-tz-TXn" secondAttribute="bottom" constant="8" symbolic="YES" id="e4n-Tb-iGL"/>
+                            <constraint firstItem="ID5-av-Er3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eT8-vx-bKB"/>
+                            <constraint firstItem="bUU-tz-TXn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iIB-gM-b4Z"/>
+                            <constraint firstItem="bUU-tz-TXn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ppM-U3-05w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bUU-tz-TXn" secondAttribute="trailing" id="qFJ-Hf-0Cm"/>
+                            <constraint firstItem="ID5-av-Er3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t68-va-LZ2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Bnp-xj-cgx"/>
+                                <exclude reference="eT8-vx-bKB"/>
+                                <exclude reference="Dox-ek-fIv"/>
+                                <exclude reference="iIB-gM-b4Z"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="Bnp-xj-cgx"/>
+                                <exclude reference="e4n-Tb-iGL"/>
+                                <include reference="eT8-vx-bKB"/>
+                                <exclude reference="t68-va-LZ2"/>
+                                <include reference="Dox-ek-fIv"/>
+                                <exclude reference="XPQ-Q6-GJB"/>
+                                <include reference="iIB-gM-b4Z"/>
+                                <exclude reference="ppM-U3-05w"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Sun" width="150" height="150"/>
+    </resources>
+</document>
